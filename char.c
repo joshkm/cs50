@@ -12,6 +12,14 @@ int main (void)
     {
          printf("Agree.\n");
     }
+    else if (activate == 'Y')
+    {
+        printf("Agree.\n");
+    }
+    else if (activate == 'N')
+    {
+        printf("Disagree.\n");
+    }
     else if ( activate == 'n')
     {
         printf("Disagree.\n");
