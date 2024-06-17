@@ -8,20 +8,14 @@ int main (void)
     printf("%s (y/n):",c);
     scanf("%c", &activate);
 
-    if ( activate == 'y')
+    if ( activate == 'y' || activate == 'Y')
     {
          printf("Agree.\n");
     }
-    else if (activate == 'Y')
-    {
-        printf("Agree.\n");
-    }
-    else if (activate == 'N')
+    
+    else if (activate == 'N' || activate == 'n')
     {
         printf("Disagree.\n");
     }
-    else if ( activate == 'n')
-    {
-        printf("Disagree.\n");
-    }
+    
 }
