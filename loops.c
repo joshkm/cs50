@@ -6,6 +6,6 @@ int main(void)
     while (counter > 0)
     {
     printf("hey.\n");
-     counter ++;
+    counter = counter -1;
     }
 }
