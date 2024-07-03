@@ -2,8 +2,8 @@
 
 int main (void)
 {
-    
-    for (int counter  = 0; counter < 100; counter++)
+    const int n = 100;
+    for (int counter  = 0; counter < n; counter++)
 
    {
 
