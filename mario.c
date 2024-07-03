@@ -1,19 +1,35 @@
-#include <stdio.h>
+#include <stdio.h> 
 
 int main (void)
-
 {
-    int counter  = 0;
-    while (counter < 4)
+    
+    for (int counter  = 0; counter < 100; counter++)
+
+   {
+
+    int insideCounter = 0;
+
+    while (insideCounter < 4)
      
   {
      printf("?");
      printf("!");
-     counter++;
+     insideCounter++;
+  }
+  printf("\n");
+  
+
+  insideCounter = 0;
+
+  while(insideCounter < 4)
+  {
+     printf("#");
+     insideCounter++;
    }
 
    printf("\n");
-
-
+ 
+    }
+    return 0;
 
 }
