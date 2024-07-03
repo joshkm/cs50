@@ -2,7 +2,9 @@
 
 int main (void)
 {
-    const int n = 100;
+    const int n;
+    printf("size: ");
+    scanf("%d", &n);
     for (int counter  = 0; counter < n; counter++)
 
    {
